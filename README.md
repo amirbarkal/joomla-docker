@@ -28,4 +28,4 @@ For example, if you have an Akeeba ZIP file, extract its content to `code` and r
 `docker-compose up`
 
 ## Help! I need a different PHP/Joomla version!
-Edit docker-compose.yml and change the joomla image as per your requirements.
+Edit `docker-compose.yml` and change the joomla image [as per your requirements](https://hub.docker.com/_/joomla/).
