@@ -16,6 +16,12 @@ Open `http://DOCKER_HOST:80`
 ## How to access phpMyAdmin?
 Open `http://DOCKER_HOST:81`
 
-## How to access tftp?
-Open `http://DOCKER_HOST:82`
+## Where is my stuff?
+Joomla and MySQL are mounted as docker volumes inside the `code` and `database `directories.
+(Changes are persisted accross container restart \ removal)
 
+## Can I bring my own stuff?
+Yes.
+Copy your website into the `./code` directory before starting the environment.
+For example, if you have an Akeeba ZIP file, extract its content to `code` and run
+`docker-compose up`

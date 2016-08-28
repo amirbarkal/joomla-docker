@@ -1,7 +1,8 @@
 version: '2'
 services: 
   joomla:
-    image: joomla:3.6.2-apache-php7
+    #image: joomla:3.6.2-apache-php7
+    image: joomla:3.6.2-apache
     links:
      - mysql
     ports:
