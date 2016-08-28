@@ -1,4 +1,4 @@
-![JOOMLA](http://freshmail.com/wp-content/uploads/2014/03/Joomla-logo.png "JOOMLA")
+![JOOMLA](https://blog.rosehosting.com/blog/wp-content/uploads/2014/10/joomla.png "JOOMLA")
 
 # Joomla + MySQL + phpMyAdmin on Docker. 
 ### Written by Amir Barkal
