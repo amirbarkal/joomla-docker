@@ -1,0 +1,26 @@
+version: '2'
+services: 
+  joomla:
+    image: joomla:3.6.2-apache-php7
+    links:
+     - mysql
+    ports:
+     - "80:80"
+    environment:
+     - JOOMLA_DB_HOST=mysql:3306
+     - JOOMLA_DB_PASSWORD=1qaz@WSX
+  
+  mysql:
+    image: mysql:5.7.14
+    environment:
+     - MYSQL_ROOT_PASSWORD=1qaz@WSX
+     - MYSQL_DATABASE=joomla
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:4.6.4-1
+    links:
+     - mysql
+    ports:
+     - "81:80"
+    environment:
+     - PMA_HOST=mysql
