@@ -24,4 +24,5 @@ Joomla and MySQL are mounted as docker volumes inside the `code` and `database `
 Yes.
 Copy your website into the `./code` directory before starting the environment.
 For example, if you have an Akeeba ZIP file, extract its content to `code` and run
+
 `docker-compose up`
