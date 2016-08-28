@@ -26,3 +26,6 @@ Copy your website into the `./code` directory before starting the environment.
 For example, if you have an Akeeba ZIP file, extract its content to `code` and run
 
 `docker-compose up`
+
+## Help! I need a different PHP/Joomla version!
+Edit docker-compose.yml and change the joomla image as per your requirements.
