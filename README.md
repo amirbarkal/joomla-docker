@@ -41,4 +41,5 @@ Edit `docker-compose.yml` and change the joomla image [as per your requirements]
 
 ## I'm having trouble installing Docker :-(
 See if this video helps you:
+
 [![See if this video helps you](http://img.youtube.com/vi/S7NVloq0EBc/0.jpg)](http://www.youtube.com/watch?v=S7NVloq0EBc)
