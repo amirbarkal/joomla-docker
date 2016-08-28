@@ -10,6 +10,11 @@
 3. `cd joomla-docker`
 4. `docker-compose.exe up`
 
+## Environment details:
+- MySQL root password: 1qaz@WSX
+- Joomla database name: joomla
+- MySQL hostname: mysql
+
 ## How to access Joomla?
 Open `http://DOCKER_HOST:80`
 
@@ -18,11 +23,13 @@ Open `http://DOCKER_HOST:81`
 
 ## Where is my stuff?
 Joomla and MySQL are mounted as docker volumes inside the `code` and `database `directories.
+
 (Changes are persisted accross container restart \ removal)
 
 ## Can I bring my own stuff?
 Yes.
 Copy your website into the `./code` directory before starting the environment.
+
 For example, if you have an Akeeba ZIP file, extract its content to `code` and run
 
 `docker-compose up`
