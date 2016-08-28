@@ -1,4 +1,5 @@
-# Joomla + MySQL + phpMyAdmin on Docker. Written by Amir Barkal
+# Joomla + MySQL + phpMyAdmin on Docker. 
+### Written by Amir Barkal
 
 ## Environment details:
 - MySQL root password: 1qaz@WSX
