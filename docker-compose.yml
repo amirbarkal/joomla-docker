@@ -17,7 +17,9 @@ services:
     environment:
      - MYSQL_ROOT_PASSWORD=1qaz@WSX
      - MYSQL_DATABASE=joomla
-  
+    volumes:
+     - ./database:/var/lib/mysql
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:4.6.4-1
     links:
