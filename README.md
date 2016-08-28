@@ -1,24 +1,26 @@
-# Joomla + MySQL + phpMyAdmin on Docker
-### Written by Amir Barkal
-
-## What is this?
-   A fast way to spin up joomla using Docker.
-
-## How to configure it?
-1. Download and install [Docker](http://www.docker.com/products/docker#/windows)
-2. Clone this repo
-3. `cd joomla-docker`
-4. `docker-compose.exe up`
+# Joomla + MySQL + phpMyAdmin on Docker. Written by Amir Barkal
 
 ## Environment details:
 - MySQL root password: 1qaz@WSX
 - Joomla database name: joomla
 - MySQL hostname: mysql
 
-## How to access Joomla?
+# FAQ
+
+
+## What is this?
+A fast way to spin up joomla using Docker.
+
+## How do I configure it?
+1. Download and install [Docker](http://www.docker.com/products/docker#/windows)
+2. Clone this repo
+3. `cd joomla-docker`
+4. `docker-compose.exe up`
+
+## How do I access Joomla?
 Open `http://DOCKER_HOST:80`
 
-## How to access phpMyAdmin?
+## How do I access phpMyAdmin?
 Open `http://DOCKER_HOST:81`
 
 ## Where is my stuff?
@@ -36,3 +38,6 @@ For example, if you have an Akeeba ZIP file, extract its content to `code` and r
 
 ## Help! I need a different PHP/Joomla version!
 Edit `docker-compose.yml` and change the joomla image [as per your requirements](https://hub.docker.com/_/joomla/).
+
+## I'm having trouble installing Docker :-(
+[![See if this video helps you](http://img.youtube.com/vi/S7NVloq0EBc/0.jpg)](http://www.youtube.com/watch?v=S7NVloq0EBc)
