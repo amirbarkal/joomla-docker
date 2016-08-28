@@ -9,14 +9,14 @@ services:
      - "80:80"
     environment:
      - JOOMLA_DB_HOST=mysql:3306
-     - JOOMLA_DB_PASSWORD=1qaz@WSX
+     - JOOMLA_DB_PASSWORD=12345678
     volumes:
      - ./code:/var/www/html
   
   mysql:
     image: mysql:5.7.14
     environment:
-     - MYSQL_ROOT_PASSWORD=1qaz@WSX
+     - MYSQL_ROOT_PASSWORD=12345678
      - MYSQL_DATABASE=joomla
     volumes:
      - ./database:/var/lib/mysql

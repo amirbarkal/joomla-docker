@@ -2,7 +2,7 @@
 ### Written by Amir Barkal
 
 ## Environment details:
-- MySQL root password: 1qaz@WSX
+- MySQL root password: 12345678
 - Joomla database name: joomla
 - MySQL hostname: mysql
 
