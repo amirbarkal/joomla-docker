@@ -1,11 +1,11 @@
-# Joomla docker-compose
+# Joomla + MySQL + phpMyAdmin on Docker
 ### Written by Amir Barkal
 
 ## What is this?
    A fast way to spin up joomla using Docker.
 
 ## How to configure it?
-1. Download and install Docker
+1. Download and install [Docker](http://www.docker.com/products/docker#/windows)
 2. Clone this repo
 3. `cd joomla-docker`
 4. `docker-compose.exe up`
