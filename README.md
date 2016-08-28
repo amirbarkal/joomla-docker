@@ -1,4 +1,4 @@
-![JOOMLA](https://www.google.co.il/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwik8Men1eTOAhVEuxQKHanjDhcQjRwIBw&url=https%3A%2F%2Ffreshmail.com%2Fplugin%2Fjoomla-newsletter%2F&psig=AFQjCNE61bQO0GRTbAyhb8RXyF8s8o1nOA&ust=1472492803860490 "JOOMLA")
+![JOOMLA](http://freshmail.com/wp-content/uploads/2014/03/Joomla-logo.png "JOOMLA")
 
 # Joomla + MySQL + phpMyAdmin on Docker. 
 ### Written by Amir Barkal
